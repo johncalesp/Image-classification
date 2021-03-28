@@ -46,7 +46,7 @@ def main():
     col6.header("Street")
     col6.image(img_street)
 
-    st.markdown("Upload an image similar to the ones mentioned above")
+    st.markdown("Upload an image similar to the ones mentioned above, the image will be resized and showed to you along with to possible classifications")
 
     upload_image = st.file_uploader("Choose a File",type=["png","jpg","jpeg"])
 
@@ -66,7 +66,7 @@ def main():
         prediction = model_xception.predict(img_dataset)
         prediction = np.ravel(prediction)
         idx_best_pred = prediction.argsort()[-2:][::-1]
-        st.markdown("The top 2 predictions are:")
+        st.markdown("The top 2 classifications are:")
         for index in idx_best_pred[-2:]:
             st.markdown(class_names[index])
 
