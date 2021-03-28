@@ -15,7 +15,8 @@ def main():
 
     st.title('Predicting an Image based on six different categories')
 
-    st.markdown("This is a simple model for classification of images")
+    st.markdown("This is a model based on Tensorflow and Keras for classification of images."
+                "Depending on the image you upload, the model will try to categorize it in one of six options available.")
 
     img_building = Image.open('baseImages/building.jpg')
     img_forest = Image.open('baseImages/forest.jpg')
@@ -67,7 +68,7 @@ def main():
         idx_best_pred = prediction.argsort()[-2:][::-1]
         st.markdown("The top 2 predictions are:")
         for index in idx_best_pred[-2:]:
-            st.write(class_names[index])
+            st.markdown(class_names[index])
 
 
 def preprocess_prediction(image):
