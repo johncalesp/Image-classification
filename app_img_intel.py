@@ -15,8 +15,8 @@ def main():
 
     st.title('Predicting an Image based on six different categories')
 
-    st.markdown("This is a model based on Tensorflow and Keras for classification of images."
-                "Depending on the image you upload, the model will try to categorize it in one of six options available.")
+    st.markdown("This is a model based on Tensorflow and Keras for classification of images.")
+    st.markdown("Depending on the image you upload, the model will try to categorize it in one of six options available.")
 
     img_building = Image.open('baseImages/building.jpg')
     img_forest = Image.open('baseImages/forest.jpg')
