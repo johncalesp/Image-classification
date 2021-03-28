@@ -46,7 +46,7 @@ def main():
     col6.header("Street")
     col6.image(img_street)
 
-    st.markdown("Upload an image similar to the ones mentioned above, the image will be resized and showed to you along with to possible classifications")
+    st.markdown("Upload an image similar to the ones mentioned above, the image will be resized and showed to you along with two possible classifications")
 
     upload_image = st.file_uploader("Choose a File",type=["png","jpg","jpeg"])
 
