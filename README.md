@@ -1,4 +1,4 @@
-# ml_clpj01
+# Computer vision with tensorflow
 This a classification model using transfer learning with tensorflow.
 
 ## Model Development
