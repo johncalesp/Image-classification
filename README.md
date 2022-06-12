@@ -1,4 +1,4 @@
-# Computer vision with tensorflow
+# Computer vision with Tensorflow
 This a classification model using transfer learning with tensorflow.
 
 ## Model Development
