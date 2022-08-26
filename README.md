@@ -12,9 +12,11 @@ Link to model development https://www.kaggle.com/code/johnsnow27/intel-img-clf
 ## Model deployment
 1. I use streamlit to make a prototype of a web application where a user can upload and image and the model can predict a label
 2. Serve the model predictions in the backend
-3. Deploy the application in Heroku.
 
-Live Demo: https://tf-ml-classification.herokuapp.com/
+![image](https://user-images.githubusercontent.com/81483067/186813045-adafd916-ec73-4696-ac25-4b66bc56a32c.png)
 
-![image](https://user-images.githubusercontent.com/81483067/173214322-ad9ff2dd-22a9-428b-84f3-d70485e35709.png)
+**After uploading an image, we obtain a prediction from the model**
+
+![image](https://user-images.githubusercontent.com/81483067/186813336-1265fea7-7210-4918-bdec-062c9175db70.png)
+
 
